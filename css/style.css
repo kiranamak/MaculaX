@@ -6,6 +6,8 @@
 /* Large Mobile :480px. */
 /* 1. Theme default css */
 @import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+
+@import url(https://fonts.googleapis.com/css?family=Exo);
 /* line 5, ../../Arafath/CL/December/233. Startup/HTML/scss/theme-default.scss */
 body {
   font-family: "Muli", sans-serif;
@@ -662,7 +664,7 @@ h3 {
   text-transform: capitalize;
   margin-bottom: 19px;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Exo", sans-serif;
 }
 
 /* line 14, ../../Arafath/CL/December/233. Startup/HTML/scss/_section_title.scss */
@@ -674,6 +676,7 @@ h3 {
   position: relative;
   z-index: 0;
   padding-bottom: 15px;
+    font-family: "Exo", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -968,7 +971,7 @@ h3 {
   font-weight: 600;
   display: inline-block;
   padding: 40px 0;
-  font-family: "Muli", sans-serif;
+  font-family: "Exo", sans-serif;
   position: relative;
 }
 
@@ -1189,7 +1192,7 @@ h3 {
 /* line 27, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text h3 {
   color: #FFF;
-  font-family: "Roboto", sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 78px;
   font-weight: 400;
   line-height: 84px;
@@ -1239,7 +1242,7 @@ h3 {
 
 .slider_area .single_slider .slider_text h2 {
   color: #FFF;
-  font-family: "Roboto", sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 78px;
   font-weight: 400;
   line-height: 84px;
@@ -2065,6 +2068,7 @@ h3 {
   padding-top: 20px;
   padding-bottom: 20px;
   background: #1F1F1F;
+  font-family: "Exo", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2278,8 +2282,8 @@ h3 {
   color: #fff;
   font-weight: 400;
   margin-bottom: 0;
-  text-transform: capitalize;
-  font-family: "Roboto", sans-serif;
+  /*text-transform: capitalize;*/
+  font-family: "Exo", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -3919,6 +3923,7 @@ h3 {
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 20px;
+    font-family: "Exo", sans-serif;
 }
 
 /* line 53, ../../Arafath/CL/December/233. Startup/HTML/scss/_contact.scss */
