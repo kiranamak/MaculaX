@@ -1165,7 +1165,7 @@ h3 {
 }
 
 .single-featured-image-header {
-	animation: zoominoutsinglefeatured 15s infinite;
+	animation: zoominoutsinglefeatured 15s;
 }
 
 /* line 4, ../../Arafath/CL/December/233. Startup/HTML/scss/_slider.scss */
