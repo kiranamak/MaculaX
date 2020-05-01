@@ -787,12 +787,12 @@ h3 {
 /* line 28, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #5DB2FF;
+  color: #0093a4;
 }
 
 /* line 32, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #5DB2FF;
+  color: #0093a4;
 }
 
 @media (max-width: 767px) {
@@ -969,7 +969,7 @@ h3 {
   text-transform: capitalize;
   font-weight: 600;
   display: inline-block;
-  padding: 40px 0;
+  padding: 35px 0 25px 0;
   font-family: "Exo", sans-serif;
   position: relative;
 }
@@ -2602,7 +2602,7 @@ h3 {
 
 /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
 .testimonial_area {
-  margin-top: 80px;
+  margin-top: 0px;
   padding: 160px 0;
   /*background-image: url(../img/testmonial/banner.png);*/
   position: relative;
@@ -5351,7 +5351,7 @@ h6 {
 /* line 1089, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
 .section-top-border {
   padding: 50px 0;
-  border-top: 1px dotted #eee;
+  border-top: 1px dashed #797676;
 }
 
 /* line 1093, ../../Arafath/CL/December/233. Startup/HTML/scss/_elements.scss */
