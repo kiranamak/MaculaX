@@ -97,7 +97,7 @@
           <h2 class="contact-title">Get in Touch</h2>
         </div>
         <div class="col-lg-8">
-          <form class="form-contact contact_form" action="https://formspree.io/xzbjkknv" method="POST" id="contactForm" novalidate="novalidate">
+          <form class="form-contact contact_form" action="https://formspree.io/kiranamak@gmail.com" method="POST" id="contactForm" novalidate="novalidate">
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group">
@@ -129,8 +129,10 @@
                 </div>
               </div>
             </div>
+              
+              <p id="sent" class = "sent" ></p>
             <div class="form-group mt-3">
-              <button type="submit" class="button button-contactForm btn_4 boxed-btn">Send Message</button>
+              <button type="submit" class="button button-contactForm btn_4 boxed-btn" onclick="showSuccess()">Send Message</button>
             </div>
           </form>
         </div>
@@ -161,6 +163,14 @@
     </div>
   </section>
   <!-- ================ contact section end ================= -->
+    
+    <script>
+        function showSuccess() {
+            var success = document.getElementById("sent");
+            success.innerHTML = "Thank you for contacting us! We will be in touch shortly.";
+            success.style.display = "block";
+        }
+    </script>
 
      <!-- footer start -->
      <!-- footer start -->
