@@ -1,3 +1,6 @@
+//<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+//<script src="contact.js"></script>
+
 $(document).ready(function(){
     
     (function($) {
@@ -55,6 +58,7 @@ $(document).ready(function(){
                 }
             },
             submitHandler: function(form) {
+                window.print()
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
@@ -66,14 +70,14 @@ $(document).ready(function(){
                             $(this).find('label').css('cursor','default');
                             $('#success').fadeIn()
                             $('.modal').modal('hide');
-		                	$('#success').modal('show');
+                            $('#success').modal('show');
                         })
                     },
                     error: function() {
                         $('#contactForm').fadeTo( "slow", 1, function() {
                             $('#error').fadeIn()
                             $('.modal').modal('hide');
-		                	$('#error').modal('show');
+                            $('#error').modal('show');
                         })
                     }
                 })
@@ -81,5 +85,5 @@ $(document).ready(function(){
         })
     })
         
- })(jQuery)
+ })(jQuery);
 })
