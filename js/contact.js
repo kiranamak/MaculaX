@@ -58,11 +58,11 @@ $(document).ready(function(){
                 }
             },
             submitHandler: function(form) {
-                window.print()
                 $(form).ajaxSubmit({
                     type:"POST",
                     data: $(form).serialize(),
                     url:"contact_process.php",
+                    window.print()
                     success: function() {
                         $('#contactForm :input').attr('disabled', 'disabled');
                         $('#contactForm').fadeTo( "slow", 1, function() {
