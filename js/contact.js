@@ -62,7 +62,6 @@ $(document).ready(function(){
                     type:"POST",
                     data: $(form).serialize(),
                     url:"contact_process.php",
-                    window.print()
                     success: function() {
                         $('#contactForm :input').attr('disabled', 'disabled');
                         $('#contactForm').fadeTo( "slow", 1, function() {
@@ -71,6 +70,7 @@ $(document).ready(function(){
                             $('#success').fadeIn()
                             $('.modal').modal('hide');
                             $('#success').modal('show');
+                            window.print()
                         })
                     },
                     error: function() {
